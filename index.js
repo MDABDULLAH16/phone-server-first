@@ -4,7 +4,7 @@ const app = express();
 const port = 5000;
 
 app.get("/", (req, res) => {
-  res.send("hello phone server");
+  res.send("hello from phone server");
 });
 
 app.get("/phones", (req, res) => {
